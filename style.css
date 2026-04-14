@@ -1,0 +1,13 @@
+p{
+    font-size:large;font-family:sans-serif;
+    color: green;
+}
+p#p-uno{
+    color: red;
+}
+p.Fondo{
+    background-color: red;
+}
+p.Fondo1{
+    background-color: pink;
+}
