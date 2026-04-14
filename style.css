@@ -25,6 +25,7 @@ h1 {
     border: 3px solid #f2d5a2; 
     margin: 20px;
     flex-grow: 1; 
+
 }
 
 #box-one {
@@ -52,12 +53,31 @@ img {
         width: 95%; 
         margin: 10px 0; 
     }
+
+    
 }
 
 @media (max-width: 979px) {
     #box-two, #box-three, #box-four {
         width: 30%; 
     }
+
+    .img {
+        width: 200px; 
+    }
+
+    #box-four {
+        display: flex; 
+        flex-direction: row; 
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #box-four img {
+        margin-right: 15px;
+        flex-shrink: 0;
+    }    
+    
 }
 
 @media (max-width: 767px) {
@@ -68,6 +88,9 @@ img {
     
     #box-one, #box-two, #box-three, #box-four {
         width: 80%; 
+    }
+    #box-four{
+        flex-direction: column;
     }
 }
 
